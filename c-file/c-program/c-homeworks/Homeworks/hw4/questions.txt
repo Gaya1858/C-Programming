@@ -1,0 +1,180 @@
+Homework 4, Activity 1:  Learning to use Valgrind
+
+Name: <<< Gayathri Kanagaraj>>>
+
+Instructions
+------------
+
+These questions deal with the movie program found in movie.c, mtime.c and
+movietest.c.  Compile these files as indicated in the assignment writeup.
+
+We have included a compiled copy of the solution "goodmovietest" for you
+to run to see how the program should behave.
+
+The nature of these activities will have you switching back and forth
+between running valgrind and looking at code. You may find it helpful to
+have a second shell window open; run valgrind in the first window, and 
+execute other commands (such as 'more', or an editor) in the second window.
+
+Questions
+---------
+
+1. Run "movietest" and observe its behavior
+
+   a. When movietest is run without valgrind, what error is reported?
+
+******************** Your answer below (5 points) ********************
+There is no error reported and the output is same as goodmovietest.
+***********************************************************
+
+   b. Is the behavior of movietest consistent, if you run it multiple
+      times (e.g. 5 times)?
+
+******************** Your answer below (4 points) ********************
+Yes. The behavior of movietest program was consistent for multiple runs.
+***********************************************************
+
+
+
+2. You will now return to looking at the output of valgrind.  If you
+   saved the errors in a file, you may look at that file.  Otherwise,
+   run the valgrind command from the writeup again on movietest.
+
+   Find the "LEAK SUMMARY" information at the end of the valgrind output.
+   
+
+   a. How many bytes of memory are reported lost?
+
+******************** Your answer below (7 points) ********************
+500 bytes of memory lost reported (in 12 blocks)
+***********************************************************
+
+   b. Find the "HEAP SUMMARY" section of the valgrind output.
+   How many bytes of memory are in use when the program exited?
+
+******************** Your answer below (7 points) ********************
+500 bytes of memory (in 12 blocks)
+***********************************************************
+
+   c. Keep looking at the "HEAP SUMMARY".  How many allocation and
+   deallocation calls were made?
+
+******************** Your answer below (7 points) ********************
+60 allocations and 50 deallocations
+***********************************************************
+
+3. The output from valgrind indicates many different errors, but most
+   are caused by the same statements in the program being executed
+   again and again.
+
+   a. Look at all the different types of errors reported by valgrind.
+      Notice that there are many invalid writes and invalid reads,
+      and that each error lists the relevant stack frame information
+      to find both where the error occurred and from where the
+      nearby memory was allocated.
+
+      What is the other type of error reported by valgrind for this program?
+
+******************** Your answer below (7 points) ********************
+invalid free
+***********************************************************
+
+   b. Notice each of the reported errors include information leading to
+   lines in the source file where malloc has been called (i.e., block
+   allocations).   List all of the source lines where blocks are allocated:
+
+******************** Your answer below (7 points) ********************
+
+movie.c:105 and movie.c:108
+***********************************************************
+
+   c. At what lines in the source file are the invalid read and write
+      accesses to the memory blocks occurring? List the relevant information
+      for the first three invalid writes and the first three invalid reads.
+
+      Here is a small part of a correct response:
+
+            The first invalid read is at moive.c:79.
+
+******************** Your answer below (7 points) ********************
+The first invalid write is at movie.c:106
+The second invalid write is at movie.c:106
+The third invalid write is at movie.c:109
+The first invalid read is at movie.c:79
+The second invalid read is at movie.c:80
+The third invalid read is at movie.c:71
+
+***********************************************************
+
+   d. Your task is to find the source of these errors.  You may wish
+   to review the file "movie.h" -- especially the structure definition.
+   You should also look at the source code around the offending lines.
+   This question may require thinking and contemplation.
+
+   What is the likely cause of the invalid read/write errors?
+
+******************** Your answer below (7 points) ********************
+Invalid read/write happens when the program tries to write/read data in a memoryzone where it shouldn't.
+The cause of the error is some of the allocated memory was not freed,and the same memory was used again and again. 
+***********************************************************
+
+Given the knowledge gained from the previous question, correct these
+errors and then recompile and retest the program.  The invalid memory
+access errors should no longer occur.
+
+4. Run valgrind again. Notice that after the program output valgrind
+   reports two occurrences of "Invalid free()".
+
+   a. In what function do these errors occur, and how many times is
+      that function called from main()?
+
+******************** Your answer below (7 points) ********************
+In function movieToString() in movie.c and it called 9 times from main.
+***********************************************************
+
+   b. How many times is free() called from inside that function itself
+      (i.e., not from any other functions it calls)?
+
+******************** Your answer below (7 points) ********************
+
+3 times
+***********************************************************
+
+   c. What fix is needed to eliminate the "Invalid free()" message?
+
+******************** Your answer below (7 points) ********************
+I had to free the allocated memories
+***********************************************************
+
+Make the fix you described, re-build and re-run the program.  The "Invalid
+free" errors should no longer appear.
+
+5. In the "HEAP SUMMARY" section, there are number of error reports
+   regarding lost blocks of memory.
+
+   a. In which functions were the calls to malloc() made which allocated
+      the blocks that were lost, and what line numbers of what file?
+
+******************** Your answer below (7 points) ********************
+In function movieToString() and line number movie.c:158
+***********************************************************
+
+   b. Examine the code to determine what you need to change to fix each
+      of the problems. Explain your solution.
+
+******************** Your answer below (7 points) ********************
+I checked all allocated(using malloc function) memory whether it freed or not. If it was not freed then i freed the pointer using free() function.
+***********************************************************
+
+   c. The memory allocated by these functions is returned by them to
+      the calling function; this effectively transfers the responsibility
+      for deallocating the memory to the caller as well.  Where is the
+      most logical place for this memory to be deallocated?
+
+******************** Your answer below (7 points) ********************
+It should be freed from where the return is stored. In this case it is in the main function.
+***********************************************************
+
+Make the necessary changes to the code to correct these final errors.
+At this point, if you did your work correctly, your program should run
+to completion with no memory management errors detected by valgri.

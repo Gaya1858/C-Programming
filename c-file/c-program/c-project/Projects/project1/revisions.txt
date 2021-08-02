@@ -1,0 +1,83 @@
+commit 8707b501a2b057174af6c55654a06e4bad866917
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 14:23:22 2020 -0400
+
+     scanner. c changes made
+
+commit 70e7fef2a05b1b150bb05032a05bb2334f7d304a
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 14:19:29 2020 -0400
+
+     comments checking
+
+commit bdb067fbe783b4bdd1a263aa4b46d657b7b92569
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 14:14:07 2020 -0400
+
+     made many changes
+
+commit a8ff233bf0f3cd64b229d50adc32c4176bf634b3
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 13:06:03 2020 -0400
+
+     small changes
+
+commit 1f0faca9b8e0c4c0bf55e8407cfbd603e81a486b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 12:56:47 2020 -0400
+
+     output changes
+
+commit 12523932d0fbff7c7a0279102cee453d51de0aca
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 12:51:55 2020 -0400
+
+     display changes mage
+
+commit 4ce5b7577f55c552602dcbf3b3bd4ae19a676136
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 12:45:53 2020 -0400
+
+     output check changes
+
+commit 40739d6861e5a9062a0ec44b0220aa782616ac29
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 1 08:18:25 2020 -0400
+
+     chnages made on scanner.c
+
+commit dee330614b66a9d4ef33876166df6d182dbef3fe
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 30 23:07:02 2020 -0400
+
+     added scanner files
+
+commit af005b66ec87e5d4b9c63f7cb6d24f36d7181e75
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 30 22:19:17 2020 -0400
+
+     changes mage
+
+commit 55c0badc5d80d473bcd37e4f7c6f9f5a6a80c422
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 30 22:01:18 2020 -0400
+
+    altered tokenize.c
+
+commit f65f0032b0571affe567236c0d843846a6ffdc81
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 29 14:30:52 2020 -0400
+
+     added code for standard input reading
+
+commit f903f1c6bc63b79365fcaaa958b3a462ac07ba8a
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 29 14:21:38 2020 -0400
+
+    trasition matrix done
+
+commit c7356f02711e8293f03e64d5a758630ec37b6db5
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Sep 27 22:33:11 2020 -0400
+
+    transition matrix works

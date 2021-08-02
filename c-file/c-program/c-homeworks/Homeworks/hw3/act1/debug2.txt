@@ -1,0 +1,37 @@
+(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/stu4/s15/gk4045/Courses/CS243/Homeworks/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 2, main () at good-life.c:143
+143	              printf("%s", life[row][col]);
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) whatis life
+type = char [20][20]
+(gdb) display life[row][col]
+3: life[row][col] = 2 '\002'
+(gdb) continue
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:62
+62	../sysdeps/x86_64/multiarch/strlen-avx2.S: No such file or directory.
+(gdb) backtrace
+#0  __strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:62
+#1  0x00007ffff7a41563 in _IO_vfprintf_internal (
+    s=0x7ffff7dd0760 <_IO_2_1_stdout_>, format=0x555555554ff3 "%s", 
+    ap=ap@entry=0x7fffffffe4c0) at vfprintf.c:1643
+#2  0x00007ffff7a48fa6 in __printf (format=<optimized out>) at printf.c:33
+#3  0x0000555555554df8 in main () at good-life.c:143
+(
+gdb)
+
+step 9. editted the goo-life.c file and details are below
+fix1: line# 157 and 145, changed format specifier from %s to %c. Because we are displaying the character. 

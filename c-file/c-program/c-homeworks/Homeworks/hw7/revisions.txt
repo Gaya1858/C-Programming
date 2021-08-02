@@ -1,0 +1,83 @@
+commit 8d3ee5c5bf5e83ea773a33ee98fe85085f62cf47
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 2 10:54:12 2020 -0500
+
+     display correction done
+
+commit 7f981bc0b9ff64f9741efad600a958106950c67c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 2 09:49:40 2020 -0500
+
+    display difference correction
+
+commit 712499734bb7422b59463a469cc9010fd319ccdd
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 1 20:00:12 2020 -0500
+
+     all leak and error handled
+
+commit 5cfe2e927ef8d5b883168af83f064f1cea53b7d1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 1 18:54:50 2020 -0500
+
+     correction made for leak
+
+commit a6bffc85e5cbf9ca9d5b1b6d93de33a6d3bef796
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 1 18:17:12 2020 -0500
+
+     correction made in all functions
+
+commit c8aedddc0d65ce4ba2e6775927707cb89b006df0
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 1 18:13:21 2020 -0500
+
+     correction made in all functions
+
+commit 10207b6174d582dc357b348c0f9ce5b814d089c0
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 1 15:14:30 2020 -0500
+
+    comments added
+
+commit 2b2b5321589032205d8b9f61f6316abaa9a41f7e
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 20:07:53 2020 -0400
+
+    intersect function done
+
+commit 90ced0e60bcb75470cef26610bfd5e63e895a41b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 20:03:16 2020 -0400
+
+    union function done
+
+commit 3fb94b6894efb38f51f3e05d03779818ed33a4fb
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 19:35:15 2020 -0400
+
+    union function added
+
+commit 58a28f790e2f7edbee8282c53d68bd9465705f77
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 19:24:40 2020 -0400
+
+    correction in output
+
+commit 79363d8e9c72ecfc3781642124a471ee193070b8
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 19:21:50 2020 -0400
+
+     have done memberset, complementry, cardinality functions
+
+commit be3aa7804b57c760f1457a806fc79214fb7e7b85
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Oct 31 15:25:05 2020 -0400
+
+    enclode function dome with doubts
+
+commit d6d2e3b5c56bb90f48a2c9a0c4f3b8d2a6a3d39b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Oct 28 09:43:41 2020 -0400
+
+     getopt flag generation done

@@ -1,0 +1,83 @@
+commit 8b636d9ba5ef672bb7eee09ac8d22b2f486b198e
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 20 09:13:20 2020 -0400
+
+    correction made
+
+commit f625018ec4256aa4217c6a78bae169c7a6c2e933
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 19 20:44:57 2020 -0400
+
+     small correction
+
+commit 1e7b489987999ddfe4b765298c61b254f119e309
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 19 20:40:02 2020 -0400
+
+    just corrections made
+
+commit 086aa4f681a3e8b769a9dc7ededdc8d3bc1d9b06
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Oct 18 22:10:00 2020 -0400
+
+    hope I ahev added all the exception handlings
+
+commit 42a73978190e8a247f9075a3ff5560b7de25a4b9
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Oct 18 20:57:40 2020 -0400
+
+    exception added
+
+commit 4f8a9e914e897cee940e502baf763ba3a6913c79
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Oct 18 20:41:16 2020 -0400
+
+    exceptions has to handle
+
+commit 8d281083995ea2c3b241e475377b8ddf556df00f
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 21:27:07 2020 -0400
+
+     str_compare added
+
+commit 4d9b63008be81bed7b6a52a2b5e5ebb83f79ae45
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 21:02:13 2020 -0400
+
+    str-copy revised
+
+commit 0e7423e607d02b3f9a5463d98e402e2ce381fdbd
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 20:27:34 2020 -0400
+
+    string copy functiona dded
+
+commit 34a6bd55ec9b5226abcf38cd353b044a407743c0
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 20:09:01 2020 -0400
+
+    str_reverse added
+
+commit 1fc80fc3fe16701eeacb3e847952845880b7822a
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 20:02:36 2020 -0400
+
+    str_length added
+
+commit 3af080e40225dcd1097d9301702bdac573006d27
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 19:56:34 2020 -0400
+
+     str_to_c added
+
+commit 051a9c3267b8aedada58ee75d9edcb6fd36cba8e
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 19:50:04 2020 -0400
+
+     str_destroy added
+
+commit e15493367050a81f9e7bd761e4f87c1536562ad5
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 16 14:35:54 2020 -0400
+
+    implementing funstions in String.c

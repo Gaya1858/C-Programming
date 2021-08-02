@@ -1,0 +1,95 @@
+commit 37f171cc292368bc53e190f6215d2f6a9c888b75
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 16:57:28 2020 -0400
+
+    was trying just random functio
+
+commit 7f7db080ecf230985f78be6d0537829a31b4fd42
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 15:24:29 2020 -0400
+
+    try to correct some new line characters
+
+commit ad5bdf891896c32a666fbef028ca7dfd6d252cd1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 15:14:01 2020 -0400
+
+    all done i hope
+
+commit 9a31659376569914cc138fa41e6ff534a28c3de4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 14:54:02 2020 -0400
+
+     document added for all the function
+
+commit 690baa3499ebfe55da4495c0988e461157a686e9
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 12:29:48 2020 -0400
+
+    made correction
+
+commit ccc3448a8eddefbc46c5c4ad01fa8322d0d9fde5
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 12:26:07 2020 -0400
+
+    made correction
+
+commit 5126d6694db59f923002b9089d4757b15014f866
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 11:50:57 2020 -0400
+
+    adding function
+
+commit 46447d8343a035d7c8471b538dc068822439d031
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 10 11:48:00 2020 -0400
+
+    adding functions
+
+commit cef40c1a0ab719265878e1c8e766f4a60dc2994b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 9 09:15:12 2020 -0400
+
+    warnings handled
+
+commit 325fd06cebc293cd15fca9eeb7c10c26cd3651b4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 9 08:40:33 2020 -0400
+
+     just added the wording fix1, fix2 in all files before i just commented with out fix#
+
+commit 354726ea02ebeb0f7e07c5536dad7e90d9f4ac17
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 17:17:04 2020 -0400
+
+    correction made in debug3.txt.
+
+commit 21c08c8761311affd07fd94ce8b37078243703b4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 17:02:23 2020 -0400
+
+    added text files
+
+commit 5096495b4aa7c75c1229ad3b79b20de7b477b7ee
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 16:06:05 2020 -0400
+
+    added debug2.txt file and commited
+
+commit 75319051cbb677fe2202305cb57575850652bbe3
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 16:02:58 2020 -0400
+
+    fix 1: stopped crashes caused by ...
+
+commit 6f760aadd4ace511917660a320dcde1bbb872fc4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 09:26:05 2020 -0400
+
+    added debug1.txt file
+
+commit 528063dbdc11703e22c4a87713785bbacf242cc1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 08:31:27 2020 -0400
+
+    added act1 and act2 files

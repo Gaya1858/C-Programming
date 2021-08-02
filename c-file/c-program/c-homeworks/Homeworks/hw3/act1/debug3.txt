@@ -1,0 +1,347 @@
+
+gk4045@queeg:~/Courses/CS243/Homeworks/hw3/act1$ make partB
+gcc -g -ggdb -std=c99 good-life.c -o good-life
+gk4045@queeg:~/Courses/CS243/Homeworks/hw3/act1$ gdb -q good-life
+Reading symbols from good-life...done.
+(gdb) break 143
+Breakpoint 1 at 0xe03: file good-life.c, line 143.
+(gdb) run
+Starting program: /home/stu4/s15/gk4045/Courses/CS243/Homeworks/hw3/act1/good-life 
+
+	..Welcome to the Game of life..
+
+Please enter the initial number of organisms: 123
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+(gdb) display row
+1: row = 0
+(gdb) display col
+2: col = 0
+(gdb) display life[row][col]
+3: life[row][col] = 2 '\002'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 1
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 2
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 3
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 4
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 5
+3: life[row][col] = 127 '\177'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 6
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 7
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 8
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 9
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 10
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 11
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 12
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 13
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 14
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 15
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 16
+3: life[row][col] = -48 '\320'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 17
+3: life[row][col] = -26 '\346'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 18
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 0
+2: col = 19
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+????? 
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 0
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 1
+3: life[row][col] = 127 '\177'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 2
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 3
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 4
+3: life[row][col] = 3 '\003'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 5
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 6
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 7
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 8
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 9
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 10
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 11
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 12
+3: life[row][col] = -64 '\300'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 13
+3: life[row][col] = -26 '\346'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 14
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 15
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 16
+3: life[row][col] = -1 '\377'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 17
+3: life[row][col] = 127 '\177'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 18
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 1
+2: col = 19
+3: life[row][col] = 0 '\000'
+(gdb) c
+Continuing.
+?????? 
+
+Breakpoint 1, main () at good-life.c:143
+143	              printf("%c", life[row][col]);//chnage format specifies from %s to %c
+1: row = 2
+2: col = 0
+3: life[row][col] = 0 '\000'
+(gdb) 
+step 6, following coreection has been made in the good-life.c file
+fix2: line# 61, 97, 129 and 13, changed ==operator to = operator. In those lines we are assigning values not comparing.

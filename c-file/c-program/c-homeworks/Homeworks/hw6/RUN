@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Testing script for students to compare output with the example outputs
+#
+# Student: execute this script to compare your output with the examples.
+
+n=1
+while [ -f ./strTest$n ]
+do
+	echo Running test $n
+	./strTest$n > out.$n
+	echo cmp stdout.$n out.$n
+	cmp stdout.$n out.$n
+	n=`expr $n + 1`
+done

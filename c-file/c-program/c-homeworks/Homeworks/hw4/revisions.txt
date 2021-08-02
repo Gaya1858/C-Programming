@@ -1,0 +1,35 @@
+commit 2d66fd0eb40b202059a93e6cdef424fdba50da16
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 24 07:37:44 2020 -0400
+
+    just checking and chnaged some typo
+
+commit a27b7d563b4cf93293c1715a59dae1cccc45dafa
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 17 17:09:55 2020 -0400
+
+    errors restified
+
+commit 1bf62efbfef5e56848f6549ed987c5b0b1fee1c1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Sep 17 16:54:05 2020 -0400
+
+     most of the errors detected
+
+commit 7fc6348ba6b48bdc37ddb7154d8c764721a2f548
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 16 14:18:36 2020 -0400
+
+    typecasting added to these files
+
+commit 308d06105c7450ecdce033a73b74efd9bed7250b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 16 13:19:25 2020 -0400
+
+     some of the questions answered
+
+commit 1b2e0a0bbb59b635caf7bf848a29b0d33976d8e7
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Sep 16 12:53:36 2020 -0400
+
+    initial valgrind errors added

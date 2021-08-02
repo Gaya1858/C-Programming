@@ -1,0 +1,215 @@
+commit b10a36d259626a1ac1220b161f34ed6b6538f4dc
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Nov 10 07:25:43 2020 -0500
+
+    memory check corrected
+
+commit af45199f6930a50aa148bcc80f777897753497b7
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Nov 10 07:01:38 2020 -0500
+
+     slight correction
+
+commit 432601c10a2858e7b9701c72cf3112d504b95d76
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Nov 10 06:53:06 2020 -0500
+
+    reading plain text into a file added
+
+commit 71d6f61cdd09a414f103f6cfc49ca9c0e74e3464
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 12:53:19 2020 -0500
+
+    checked some output difference
+
+commit 00732ab8d66362724160a175d4489f823959ff69
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 12:34:27 2020 -0500
+
+     correction checked
+
+commit e8c0fcda0ae268ee1dcc3659cc3f9d895681750b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 12:32:32 2020 -0500
+
+     calloc memory leack checked
+
+commit 8a17af323c6e56a70c2f01bbd9967623c61ffec5
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 12:08:23 2020 -0500
+
+     memroy leak checking
+
+commit 76a763ab501777d774d6914cd1e1361c1c8e0b5e
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 12:05:26 2020 -0500
+
+    checked small errors
+
+commit e0ea6d9515dac033a077e47e295ab982fcfafabc
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 11:57:18 2020 -0500
+
+     checking unused variables and doc
+
+commit f518d915508b238be26d37d153f8c799f0592bd1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Nov 9 11:17:55 2020 -0500
+
+    reading and writing works
+
+commit caf58981051393c9e956e70267896ce81837b2c3
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sun Nov 8 11:40:35 2020 -0500
+
+     reading plain text and making cipher done
+
+commit f76d8fb6e69021200fdb3e9358b6daa1b17c1b5c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Nov 7 05:47:44 2020 -0500
+
+    adding read plain functionality
+
+commit 1bc0aba3f91e302d46080d3955014a567963d15c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Sat Nov 7 03:47:20 2020 -0500
+
+    decrypt and encrypt function correction
+
+commit 357357d6a2927853db9917ebc93730835e4e10c8
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Nov 6 09:54:58 2020 -0500
+
+     mirsa_rw edited
+
+commit 7ec1dd84f17ba666c3da99761c19207b134d2d60
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Nov 5 13:45:45 2020 -0500
+
+     decryption funtion add
+
+commit 8122376ab3a0619796f384c97f61de61a143ad58
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Nov 4 12:13:01 2020 -0500
+
+    decryption function added
+
+commit 483176f1db7b020bf67bf1416ec15eb81bd8ae22
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Nov 4 11:33:05 2020 -0500
+
+    decode funstion created
+
+commit e29e0f3de44f18bb09ba73d34824c238c4662497
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Nov 4 10:48:44 2020 -0500
+
+    decode and encode function done
+
+commit a6d454b2db45226edd902e8eab3b784fb05151d9
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 27 18:56:18 2020 -0400
+
+    final correction made
+
+commit f39daadb5068814a7e9fd41234a69ef95c66eee1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Fri Oct 23 12:50:17 2020 -0400
+
+     small corrections
+
+commit 598fcc5be633c21155d200fbe58f4bc337f0f32c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Oct 21 11:52:51 2020 -0400
+
+    h flag output correction
+
+commit 5475167b10276e56b00449427eadb21ae252f7ff
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Wed Oct 21 11:41:30 2020 -0400
+
+    output detail correction
+
+commit e92d804013dc27958b1075439a2ad54e592ef1e3
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 20 21:27:29 2020 -0400
+
+    correction made on filename creation
+
+commit 0c3bd0ad866704deeee991e70aa1e62d404b0849
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 20 19:51:48 2020 -0400
+
+    correction made
+
+commit bbcd878450af3da7b9095430e1d531d64982a7a4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 20 11:30:12 2020 -0400
+
+     corrections made in first part of the functions
+
+commit 1bfa7cd62491b57fb72adcaf6618778b5a1c5be7
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 15 11:21:08 2020 -0400
+
+    corrections made again
+
+commit 53f7f6dcc6b2026b1bf050903757b92a8ca0ff23
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 15 11:12:14 2020 -0400
+
+    corrections made
+
+commit aaffb6597b6689916462db2661bf1860535f5b8c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 15 01:07:20 2020 -0400
+
+     working mirsa_lib functions
+
+commit 79a0aea49c8b157534fa0d8d0b7abfc4e2970cdd
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Oct 13 23:20:42 2020 -0400
+
+    mirsa_lib.c make keyfile
+
+commit 755fc4a93fc54449fa809a1cb2918b94657de30d
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 15:06:02 2020 -0400
+
+    commands changed
+
+commit 70156af052bdd868035f2e411239550a63e06d9d
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 15:00:33 2020 -0400
+
+    created p and q prime numbers
+
+commit c8311ebd68fbeda9e60a03295be94951a5ea0a5f
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 10:44:08 2020 -0400
+
+    comments added to the readFile function
+
+commit 50fbfc90d5e6cfe908e784a3bb758e2245996fb2
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 10:40:52 2020 -0400
+
+    Primes.txt converted to an array
+
+commit 699f2d6d51d636c7c4ea4bdf29cb64706d35775c
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 10:17:04 2020 -0400
+
+     reading Primes.txt file
+
+commit 0dc956218260a98371f1223d6709a074638c1e25
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 12 00:16:52 2020 -0400
+
+    mirsa_genkeys getopt command working
+
+commit a0df043ecea9923b73fe07a217160fa95af0d4c6
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 8 14:42:03 2020 -0400
+
+    initial provisioning

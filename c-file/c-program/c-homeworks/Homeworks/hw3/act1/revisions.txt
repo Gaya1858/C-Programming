@@ -1,0 +1,35 @@
+commit 354726ea02ebeb0f7e07c5536dad7e90d9f4ac17
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 17:17:04 2020 -0400
+
+    correction made in debug3.txt.
+
+commit 21c08c8761311affd07fd94ce8b37078243703b4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 17:02:23 2020 -0400
+
+    added text files
+
+commit 5096495b4aa7c75c1229ad3b79b20de7b477b7ee
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 16:06:05 2020 -0400
+
+    added debug2.txt file and commited
+
+commit 75319051cbb677fe2202305cb57575850652bbe3
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 16:02:58 2020 -0400
+
+    fix 1: stopped crashes caused by ...
+
+commit 6f760aadd4ace511917660a320dcde1bbb872fc4
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 09:26:05 2020 -0400
+
+    added debug1.txt file
+
+commit 528063dbdc11703e22c4a87713785bbacf242cc1
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Tue Sep 8 08:31:27 2020 -0400
+
+    added act1 and act2 files

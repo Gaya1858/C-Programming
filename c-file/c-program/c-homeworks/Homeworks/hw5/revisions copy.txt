@@ -1,0 +1,41 @@
+commit 451f0754211c995cf620c62d0fd478a8817fb8f6
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 8 14:37:29 2020 -0400
+
+    display wording corrected
+
+commit 8b54daed6d083efb990f00f10ade12ee98f94c7b
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Thu Oct 8 14:29:05 2020 -0400
+
+    duplicate values corrected
+
+commit 1c0da67fef8b83bbc7178979cbf915e31be4f7ad
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 5 13:47:51 2020 -0400
+
+     memory free function works
+
+commit d668206cebba41b72daca66b580427778a3194c5
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 5 12:52:00 2020 -0400
+
+     Inoder traverse is working
+
+commit ec5d164821ea8e2277a9f80d42e861bbdf25423d
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 5 12:29:59 2020 -0400
+
+     tree_buil function done
+
+commit 1e9bcb5db58378291686e340717ba7e9e9c1f969
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 5 07:25:11 2020 -0400
+
+     treestest.c created and added some basic output details
+
+commit 4a53e38e5038b76de9cce8e0ed2c517f836005bf
+Author: Gayathri  Kanagaraj <gk4045@cs.rit.edu>
+Date:   Mon Oct 5 06:23:49 2020 -0400
+
+     just created bst.c
